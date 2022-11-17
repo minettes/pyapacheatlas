@@ -18,6 +18,7 @@ class ServicePrincipalAuthentication(AtlasAuthBase):
         :param str client_secret: The client secret or application secret
             of your service principal.
         """
+        print(tenant_id,client_id)
         super().__init__()
 
         self.ouath_url = (
